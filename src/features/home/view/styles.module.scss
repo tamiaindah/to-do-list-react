@@ -1,0 +1,15 @@
+.wrapper {
+    & .container {
+        padding: 20px 0;
+        max-width: 1028px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        & .counterContainer {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}

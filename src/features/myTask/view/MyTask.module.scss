@@ -1,0 +1,42 @@
+.wrapper {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+	gap: 30px;
+
+	.title {
+		font-size: 48px;
+		font-weight: 700;
+	}
+
+	.fieldWrapper {
+		display: flex;
+		width: 100%;
+
+		.fieldTask {
+			display: flex;
+			flex-direction: row;
+			gap: 8px;
+			width: 100%;
+			justify-content: center;
+
+			.inputTask {
+				padding: 12px 8px;
+				width: 60%;
+			}
+
+			button {
+				width: 20%;
+				text-wrap: wrap;
+				color: white;
+				font-weight: 600;
+				background-color: #6528f7;
+				border: 0;
+				padding: 12px;
+				border-radius: 3px;
+			}
+		}
+	}
+}

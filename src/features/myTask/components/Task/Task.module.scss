@@ -1,0 +1,26 @@
+.taskWrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #c5dff8;
+	padding: 12px 32px;
+	border-radius: 4px;
+
+	.task {
+		width: 80%;
+		display: flex;
+		align-items: center;
+	}
+
+	button {
+		text-wrap: wrap;
+		color: white;
+		font-weight: 600;
+		background-color: red;
+		border: 0;
+		padding: 12px;
+		border-radius: 3px;
+	}
+}
