@@ -21,7 +21,6 @@ const MyTask = () => {
 	const handleDeleteTask = (id: number) => {
 		const filteredTasks = tasks.filter((task) => task.id !== id);
 		setTasks(filteredTasks);
-		console.log(filteredTasks);
 	};
 
 	return (
